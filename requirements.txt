@@ -21,3 +21,9 @@ pdf2image
 pytesseract
 Pillow
 plotly
+requests==2.32.3
+# PDF handling (at least one is required; code supports multiple engines)
+# Optional PDF engines (best-effort trimming options)
+pymupdf
+pikepdf
+pdfrw
